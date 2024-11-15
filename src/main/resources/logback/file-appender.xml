@@ -15,7 +15,7 @@
             <maxHistory>60</maxHistory>
         </rollingPolicy>
         <encoder>
-            <Pattern>[%d{HH:mm:ss.SSS}] [%-5level] [%X{requestId}] [%-21thread]
+            <Pattern>[%d{HH:mm:ss.sss}] [%-5level] [%X{requestId}] [%-21thread]
                 %logger{36}.%method:%line - %msg%n
             </Pattern>
             <charset>utf8</charset>
@@ -32,7 +32,7 @@
             <maxHistory>60</maxHistory>
         </rollingPolicy>
         <encoder>
-            <Pattern>[%d{HH:mm:ss.SSS}] [%-5level] [%X{requestId}] [%-21thread]
+            <Pattern>[%d{HH:mm:ss.sss}] [%-5level] [%X{requestId}] [%-21thread]
                 %logger{36}.%method:%line - %msg%n
             </Pattern>
             <charset>utf8</charset>
